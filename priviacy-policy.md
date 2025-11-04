@@ -1,56 +1,78 @@
-# Privacy Policy for ISP Codes  
+# Privacy Policy for ISP Codes
+
 **Effective Date:** 2025-02-14  
-**Last Updated:** 2025-05-11  
+**Last Updated:** 2025-08-29  
 
 ## Introduction
 
-ISP Codes provides a mobile application that displays ISP subscription codes for MTN, Zain, and Sudani users. This Privacy Policy explains how we handle user information.
+ISP Codes ("we," "our," or "us") provides a mobile application that displays ISP subscription codes for MTN, Zain, and Sudani users. This Privacy Policy explains our commitment to user privacy.
 
-## Information We Collect
+## No Data Collection
 
-We do not collect, store, or share personally identifiable information (PII). However, we use Firebase Cloud Messaging (FCM) to send push notifications. FCM may collect device-related identifiers (e.g., device tokens) for the purpose of delivering notifications.
+We want to be perfectly clear: **ISP Codes does not collect, store, or process any user data.** Our app is designed with privacy as a core principle.
 
-The app may also fetch a JSON file hosted on GitHub to update ISP code data. This operation is read-only and does not involve collecting user data.
-
-## Permissions Used
-
-The app may request the following permissions for proper functionality:
-
-- **Phone Dialer** – To allow users to directly dial ISP codes.
-
-We do not access, store, or transmit any personal data through these permissions.
+### What We Don't Collect:
+- ❌ Personal information (name, email, phone number)
+- ❌ Device identifiers (Advertising ID, device ID)
+- ❌ Location data
+- ❌ Usage analytics
+- ❌ Any other user data
 
 ## Third-Party Services
 
-We use the following third-party services:
+### Google AdMob
+We use **Google AdMob** to display advertisements. While we don't collect any data, AdMob may process information according to their own policies when serving ads.
 
-- **Firebase Cloud Messaging (Google LLC)** – For sending push notifications. See [Google’s Privacy Policy](https://policies.google.com/privacy).
-- **GitHub (Microsoft Corporation)** – To host a publicly accessible JSON file containing ISP codes. No user data is sent or received in this process.
+*Google's Privacy Policy: https://policies.google.com/privacy*
 
-Please note that if you download updates from sources like the Google Play Store, those services may have their own privacy policies.
+You can control ad personalization through your device settings:
+- **Android**: Settings → Google → Ads → Opt out of Ads Personalization
 
-## Advertising
+### Firebase Services
+We use limited Firebase services:
+- **Firebase Cloud Messaging**: For topic-based notifications (no personal data)
+- **Firebase Crashlytics**: For anonymous crash reporting (auto-collected by Google)
 
-We use **Google AdMob** to serve ads in our application. AdMob may collect and use data such as:
+## App Functionality
 
-- Advertising ID
-- Device information (e.g., model, OS version)
-- App usage data
+### Local-Only Operation
+- All subscription codes are loaded from local app assets
+- No user accounts or registration required
+- All preferences stored locally on your device
+- No data transmitted to our servers (we don't have servers)
 
-This data is used for ad personalization, analytics, and to limit ad frequency. You can learn more about how Google uses this information at:  
-[https://policies.google.com/technologies/ads](https://policies.google.com/technologies/ads)
+### Optional Internet Features
+- Code updates from secure sources (user-initiated)
+- Ad loading (handled by AdMob)
+- Crash reporting (anonymous, auto-handled by Firebase)
 
-Users can opt out of personalized ads through their device settings by selecting “Opt out of Ads Personalization.”
+## Permissions
+
+The app requests only essential permissions:
+- **INTERNET**: For ads and optional updates
+- **ACCESS_NETWORK_STATE**: To check connectivity
+- **POST_NOTIFICATIONS** (Android 13+): For optional notifications
 
 ## Data Security
 
-As we do not store personal data, there is minimal risk of unauthorized data access. We rely on trusted third-party services that implement industry-standard security practices.
+Since we don't collect any data, there's no risk of data breaches from our side. The app operates entirely on your device.
+
+## Your Privacy Rights
+
+You have complete control:
+- Use the app entirely offline
+- Disable internet to prevent ads
+- Clear app data anytime
+- Uninstall to remove all local data
+
+## Children's Privacy
+
+Our app is safe for all ages as we don't collect any data.
 
 ## Changes to This Policy
 
-We may update this Privacy Policy occasionally. Changes will be posted on this page. Continued use of the app constitutes acceptance of the updated policy.
+We will update this policy if our data practices change. Continued use after changes means you accept the updated policy.
 
 ## Contact Us
 
-If you have any questions or concerns regarding this Privacy Policy, feel free to contact us at:  
-**7asobalz3em@gmail.com**
+For privacy questions: **7asobalz3em@gmail.com**
